@@ -35,6 +35,8 @@
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
+\newcommand{\comment}[1]{} % used to comment out entire blocks of code
+
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
@@ -63,6 +65,7 @@
 %----------------------------------------------------------------------------------------
 
 % To remove the cover letter, comment out this entire block
+\comment{
 
 \clearpage
 
@@ -80,6 +83,7 @@
 \makeletterclosing % Print letter signature
 
 \newpage
+}
 
 %----------------------------------------------------------------------------------------
 %	CURRICULUM VITAE
@@ -107,6 +111,10 @@
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
+
+\section{Work experience}
+
+\cvitem{Contargo}{6 Months \newline Automating the setup of raspberry pi's and work PC's}
 
 \section{Coding experience}
 
@@ -143,12 +151,16 @@
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
+\section{Manufacturing skills}
+
+\cvitem{Design}{I have basic knowledge in Design software (\textsc{Creo} and \textsc{Fusion360}).}
+\cvitem{3dprinting}{I have access to a 3D printer and know how to print on it.}
 
 \section{Computer skills}
 
 \cvitem{Web}{\textsc{html}, \textsc{css}}
-\cvitem{Programming}{\textsc{Java}, \textsc{C++}}
-\cvitem{}{\textsc{Eclipse}, \textsc{sublimeText}, \textsc{git}, \textsc{github}}
+\cvitem{Programming}{\textsc{Java}, \textsc{Kotlin}, \textsc{C++}, \textsc{Python}, \textsc{Ansible}}
+\cvitem{}{\textsc{sublimeText}, \textsc{git}, \textsc{github}, \textsc{gitlab}}
 \cvitem{}{\textsc{Maple}, \textsc{Linux command line}, \textsc{\LaTeX}}
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
